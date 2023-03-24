@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "logo": "../assets/images/logo.png"
+    },
+    {
+      "nav": [
+        "Modeller",
+        "Om os",
+        "Kontakt",
+        "Book Prøvetur"
+      ]
+    },
+    {
+      "bg": "../assets/images/hero-bg.jpeg"
+    },
+    {
+      "spec": [
+        "Op til 743 km",
+        "31 minutter Opladningstid",
+        "385 kw /523 hk"
+      ]
+    },
+    {
+      "text": "Oplev Mercedes EQS' imponerende teknologi og luksuriøse design"
+    },
+    {
+      "btn_conf": "Konfigurer bil",
+      "btn_buy": "Find forhandler"
+    }
+  ]
+}

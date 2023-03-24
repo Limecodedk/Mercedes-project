@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "img": "/assets/images/slider/Slide01.jpg",
+      "heading": "Fremtiden kalder",
+      "text": "Mercedes EQS er en revolutionerende elektrisk luksussedan med en imponerende rækkevidde på op til 770 km på en enkelt opladning. Den er udstyret med en kraftfuld elektrisk motor, der leverer op til 516 hk, hvilket giver en imponerende acceleration på kun 4,3 sekunder fra 0-100 km/t."
+    },
+    {
+      "img": "/assets/images/slider/Slide02.jpg",
+      "heading": "Et design der tiltrækker",
+      "text": "Bilens design er også banebrydende, med en aerodynamisk og strømlinet form, der ikke kun giver en fantastisk stil, men også hjælper med at forbedre dens effektivitet og ydeevne. EQS har også et sofistikeret affjedringssystem og firehjulsstyring, hvilket giver en jævn og behagelig kørsel."
+    },
+    {
+      "img": "/assets/images/slider/Slide03.jpg",
+      "heading": "Sikkerhed tænkt med",
+      "text": "EQS er også udstyret med avancerede sikkerhedsfunktioner, såsom et adaptivt fartpilot system, automatisk nødbremse, aktiv vejbaneassistent og trafikskiltegenkendelse. Derudover er EQS også en miljøvenlig bil, med bæredygtige materialer i interiøret og en CO2-neutral produktion."
+    },
+    {
+      "img": "/assets/images/slider/Slide04.avif",
+      "heading": "Prøv en tur og mærk forskellen",
+      "text": "Alt i alt er Mercedes EQS en topmoderne luksussedan med en kombination af imponerende rækkevidde, kraftfuld ydeevne, banebrydende design og teknologi, avancerede sikkerhedsfunktioner og miljøvenlig produktion."
+    }
+  ],
+  "button": [
+    {
+      "prev": "/assets/images/slider/back-arrows.png",
+      "next": "/assets/images/slider/arrow-right.png"
+    }
+  ]
+}

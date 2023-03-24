@@ -16,7 +16,7 @@ export default class Initialize {
 
     new Interior();
 
-    /* new Model({
+    new Model({
       showCameraPos: false,
       setCameraPos: [7, 12.3, -46, 6],
       showGrid: false,
@@ -24,7 +24,7 @@ export default class Initialize {
       orbitControls: true,
       showFloor: true,
       lightHelp: false
-    }); */
+    });
 
     new Slider();
 

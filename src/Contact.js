@@ -1,6 +1,7 @@
 import ContactData from "../assets/json/Contact.json"
 
 export default class Contact {
+
   constructor() {
 
     const contact = document.createElement('div')

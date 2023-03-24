@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "plads": "Førersæde",
+      "img": "../assets/images/InteriorSlider/EQS_slider01.jpg",
+      "heading": "Kig ind! Tag plads i Førersædet",
+      "text": "Interiøret i Mercedes EQS er designet til at give en fornemmelse af moderne luksus og avantgarde. Kabinen er rummelig og elegant, og materialerne er af højeste kvalitet. Mercedes har brugt bæredygtige materialer som træ, uld og genanvendte plastikflasker til at skabe en interiør, der både er smuk og miljøvenlig. Det mest iøjnefaldende element i kabinen er det enorme MBUX Hyperscreen. Det er en stor buet skærm, der strækker sig over hele bilens bredde og omfatter et digitalt instrumentpanel, en infotainmentskærm og en touchskærm til passageren. Skærmen har en opløsning på 4K og reagerer på stemmekommandoer og touchbevægelser."
+    },
+    {
+      "plads": "Passagersæde",
+      "img": "../assets/images/InteriorSlider/EQS_slider02.jpg",
+      "heading": "Pasageresædet",
+      "text": "Sæderne i Mercedes EQS er også noget ud over det sædvanlige. De er fyldt med blødt skum og har et unikt design, der giver dem et mere organisk og flydende udseende. Sæderne kan justeres på mange måder og er også udstyret med en massagefunktion og ventilation."
+    },
+    {
+      "plads": "Bagsæde",
+      "img": "../assets/images/InteriorSlider/EQS_slider03.jpg",
+      "heading": "Hold fri eller arbejd på turen",
+      "text": "Andre funktioner i interiøret inkluderer en lydsystem fra Burmester, en luftkvalitetskontrol, en aromafunktion og et sæt farverige LED-lys, der giver en behagelig atmosfære i kabinen.Alt i alt er interiøret i Mercedes EQS et mesterværk af moderne teknologi og luksus. Det er en kabinen, hvor man virkelig føler sig godt tilpas og kan nyde den elektriske kørsel i stil og komfort."
+    }
+  ]
+}

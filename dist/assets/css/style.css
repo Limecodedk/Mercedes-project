@@ -1,0 +1,631 @@
+/* 
+- General
+- Hero
+- about
+- Interior Slider
+- model
+- Slider
+- Footer
+*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+  font-family: raleway;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.hero-img {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.logo {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  height: 70px;
+  width: 100px;
+  margin: 10px 30px;
+}
+
+.pageheadernav {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  text-align: right;
+}
+
+.nav {
+  display: inline-block;
+  color: white;
+  margin: 30px 40px;
+  font-family: Raleway;
+}
+
+.topnav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.headertext {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  align-self: center;
+}
+
+.btn_container {
+  text-align: center;
+  grid-column: 1/-1;
+  grid-row: 2/-1;
+  align-self: center;
+}
+
+.btn_config,
+.btn_Buy {
+  background-color: rgba(69, 69, 77, 0.5411764706);
+  padding: 15px 30px;
+  color: white;
+  margin: 20px;
+}
+
+.btn_config:hover,
+.btn_Buy:hover {
+  background-color: rgba(255, 2, 2, 0.6666666667);
+  color: #fff;
+}
+
+.specification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #211b4b;
+  height: 150px;
+}
+
+.spec {
+  color: white;
+  font-size: 1.3rem;
+  padding: 0 15px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infotext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutContent {
+  margin: 15px 50px;
+  font-size: 1.2rem;
+}
+
+.info__car {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.interior {
+  background-color: #211b4b;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.interior .interiorSlider {
+  grid-column: 2/-1;
+  padding: 30px 10px;
+}
+.interior .interiorContent {
+  text-align: center;
+  grid-row: 1/2;
+  max-width: 800px;
+  margin: 100px 40px;
+  display: grid;
+}
+.interior .interiorHeading {
+  grid-column: 1/2;
+  color: #fff;
+}
+.interior .interiorText {
+  color: #fff;
+  grid-column: 1/2;
+  font-size: 1.4rem;
+}
+.interior img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.interiorNav {
+  grid-column: 1/-1;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.interiorNav .interiorMenu {
+  color: #fff;
+  padding: 0 30px;
+}
+
+.interiorMenu:hover {
+  color: #c9c1ff;
+  text-decoration: underline;
+}
+
+canvas {
+  background-color: #000000;
+  background-size: cover;
+}
+
+.sliderContainer {
+  background-color: #000000;
+  padding: 30px 0;
+}
+.sliderContainer .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  max-width: 850px;
+  height: 450px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.sliderContainer .sliderHeading {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.sliderContainer .sliderText {
+  color: #fff;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.BtnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+.BtnContainer img {
+  width: 65px;
+  margin: 0 auto;
+}
+.BtnContainer .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact {
+  padding: 40px 0;
+  background-color: #211b4b;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
+}
+.contact .contactBg {
+  grid-column: 1/-1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-width: 1200px;
+}
+.contact .contactHeading {
+  padding-bottom: 15px;
+}
+.contact .contactContent {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 410px;
+}
+.contact .form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  width: 320px;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  border-radius: 9px;
+}
+.contact .form .input-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact .form .contactSubmit {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: rgba(98, 146, 249, 0.5411764706);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.contact .form .contactSubmit:hover {
+  background-color: rgba(8, 41, 113, 0.5411764706);
+  border: 1px solid rgba(98, 146, 249, 0.5411764706);
+}
+
+.footer {
+  background-color: #000000;
+  height: 15vh;
+}
+.footer .footerLogo {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 120px;
+}
+.footer .copyright {
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 769px) {
+  .logo {
+    height: 50px;
+    width: 80px;
+  }
+  .nav {
+    margin: 30px 20px;
+  }
+  .headertext {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    padding-top: 30px;
+    font-size: 3rem;
+    align-self: center;
+  }
+  .btn_container {
+    grid-row: 3/-1;
+  }
+  .infotext {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  .aboutContent {
+    margin: 15px 5px;
+    font-size: 1.2rem;
+  }
+  .info__car {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .interior .interiorSlider {
+    padding: 30px 10px;
+  }
+  .interior .interiorContent {
+    max-width: 400px;
+    margin: 20px 4px;
+  }
+  .interior .interiorText {
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+  .interior .interiorHeading {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .interior img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .interiorNav {
+    grid-column: 1/-1;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 30px;
+    cursor: pointer;
+  }
+  .interiorNav .interiorMenu {
+    color: #fff;
+    padding: 0 30px;
+  }
+  .interiorMenu:hover {
+    color: #c9c1ff;
+    text-decoration: underline;
+  }
+  .sliderContainer .slide {
+    width: 100%;
+  }
+  .sliderContainer .sliderHeading {
+    font-size: 25px;
+  }
+  .sliderContainer .sliderText {
+    max-width: 500px;
+  }
+  .BtnContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+  }
+  .BtnContainer img {
+    width: 45px;
+    margin: 0 auto;
+  }
+  .contact {
+    padding: 40px 20px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .logo {
+    height: 40px;
+    width: 60px;
+    margin: 5px 15px;
+  }
+  .nav {
+    margin: 15px 5px;
+  }
+  .topnav {
+    font-size: 12px;
+  }
+  .headertext {
+    padding-top: 0px;
+    font-size: 1.4rem;
+  }
+  .btn_container {
+    grid-row: 2/-1;
+  }
+  .btn_config,
+  .btn_Buy {
+    padding: 10px 20px;
+  }
+  .specification {
+    height: 80px;
+  }
+  .spec {
+    color: white;
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .infotext {
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+  .aboutContent {
+    margin: 15px 10px;
+    font-size: 1rem;
+  }
+  .interior {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .interior .interiorSlider {
+    grid-column: 1/-1;
+    padding: 10px;
+  }
+  .interior .interiorHeading {
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+  }
+  .interior .interiorContent {
+    text-align: left;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    max-width: 380px;
+    margin: 0px 20px;
+  }
+  .interior .interiorText {
+    grid-column: 1/-1;
+    font-size: 1rem;
+  }
+  .interiorNav {
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+    margin: 15px 0;
+  }
+  .interiorNav .interiorMenu {
+    padding: 0 5px;
+    font-size: 1.4rem;
+  }
+  .interiorNav h2 {
+    font-size: 1rem;
+  }
+  .sliderContainer {
+    padding: 10px 0;
+  }
+  .sliderContainer .slide {
+    max-width: 450px;
+    height: 100%;
+    margin: 15px auto;
+    padding-top: 25px;
+  }
+  .sliderContainer .sliderHeading {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  .sliderContainer .sliderText {
+    max-width: 380px;
+  }
+  .BtnContainer {
+    margin: 20px 0;
+  }
+  .BtnContainer img {
+    width: 35px;
+  }
+  .contact {
+    padding: 15px 10px;
+    gap: 10px;
+  }
+  .contact .contactContent {
+    max-width: 410px;
+  }
+  .contact .form input {
+    width: 180px;
+    height: 30px;
+    padding-left: 15px;
+  }
+  .contact .form .contactSubmit {
+    padding: 10px 55px;
+  }
+  .footerLogo {
+    padding: 15px;
+    width: 90px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .headertext {
+    font-size: 1rem;
+  }
+  .interiorSlider {
+    grid-column: 1/-1;
+    padding: 10px;
+  }
+  .interiorContent {
+    max-width: 340px;
+  }
+  .interiorNav {
+    margin: 15px 0;
+  }
+  .interiorNav .interiorMenu {
+    font-size: 1.2rem;
+  }
+  .contact {
+    padding: 20px 5px;
+    grid-template-columns: 1fr;
+  }
+  .contact .contactHeading {
+    padding-bottom: 15px;
+  }
+  .contact .contactContent {
+    max-width: 300px;
+  }
+  .contact .form input {
+    margin: 10px 0;
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 9px;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .logo {
+    height: 25px;
+    width: 40px;
+  }
+  .headertext {
+    font-size: 1.1rem;
+  }
+  .btn_container {
+    grid-row: 2/-1;
+  }
+  .btn_config,
+  .btn_Buy {
+    margin: 30px 5px;
+    padding: 10px 10px;
+  }
+  .interiorSlider {
+    grid-column: 1/-1;
+    padding: 10px;
+  }
+  .interiorContent {
+    max-width: 300px;
+  }
+  .interiorNav {
+    margin: 15px 0;
+  }
+  .interiorNav .interiorMenu {
+    font-size: 1rem;
+  }
+  .contact {
+    padding: 20px 5px;
+    grid-template-columns: 1fr;
+  }
+  .contact .contactHeading {
+    padding-bottom: 15px;
+  }
+  .contact .contactContent {
+    max-width: 300px;
+  }
+  .contact .form input {
+    margin: 10px 0;
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 9px;
+  }
+}/*# sourceMappingURL=style.css.map */

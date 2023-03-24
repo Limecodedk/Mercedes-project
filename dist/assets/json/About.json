@@ -1,0 +1,19 @@
+{
+  "about": [
+    {
+      "text": "Mercedes EQS: Et dybt avanceret og innovativt elbil design",
+      "img": "../assets/images/mercedes_EQS_sedan.jpg",
+      "content": "Mercedes EQS 2021 er en luksuriøs sedan. Den har en imponerende acceleration og topfart. EQS er også kendt for sit futuristiske design, avancerede teknologi og høje komfortniveau. Bilen har en lang række avancerede funktioner, såsom en stor skærm, stemmestyring og selvkørende teknologi. EQS er en af Mercedes' mest ambitiøse elektriske biler til dato og forventes at blive en stor konkurrent i det voksende marked for elbiler."
+    },
+    {
+      "text": "Opdag Mercedes EQS' avancerede ladesystem til elbil",
+      "img": "../assets/images/EQS-Charging.jpg",
+      "content": "Mercedes EQS 2021 har en stor batteripakke med en kapacitet på op til 107,8 kWh, hvilket giver bilen en rækkevidde på op til 770 km på en enkelt opladning. Bilen understøtter hurtigopladning på op til 200 kW, som kan give op til 300 km rækkevidde på bare 15 minutters opladning. EQS kan også oplades trådløst med en effekt på op til 9,6 kW."
+    },
+    {
+      "text": "Mercedes EQS' innovative undervogn konstruktion sætter nye standarder",
+      "img": "../assets/images/EQS-Performance.jpg",
+      "content": "Mercedes EQS 2021 er bygget på en dedikeret elbil-platform kaldet EVA (Electric Vehicle Architecture), som er designet specifikt til elektriske køretøjer. Platformen har en flad bundstruktur, der giver mere plads til batteripakken og elektriske komponenter, samtidig med at den reducerer luftmodstanden. EQS har også en stiv og let karosseristruktur, der er lavet af en blanding af stål, aluminium og kulfiber-forstærket plast. Dette giver bilen en høj stivhed og holdbarhed, samtidig med at den holder vægten nede. EQS er også udstyret med avanceret luftaffjedring og adaptive dæmpere, der tilpasser sig vejen og kørselsforholdene for en mere komfortabel kørsel."
+    }
+  ]
+}
