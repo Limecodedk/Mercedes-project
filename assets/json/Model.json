@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "floor": "../assets/model/asphalt_floor_new.jpg"
+    },
+    {
+      "wallCenter": "../assets/model/city_center_bg.jpg",
+      "wallLeft": "../assets/model/city_left_bg.jpg",
+      "wallRight": "../assets/model/city_right_bg.jpg",
+      "bg": "../assets/model/Mercedes_logo_wall.jpg"
+    },
+    {
+      "Model": "assets/model/Mercedes_EQS_2021_white.gltf"
+    }
+  ]
+}
