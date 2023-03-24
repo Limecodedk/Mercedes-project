@@ -464,34 +464,37 @@ canvas {
   .hero {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-  }
 
-  .logo {
-    height: 40px;
-    width: 60px;
-    margin: 5px 15px;
-  }
+    .headertext {
+      padding-top: 0px;
+      font-size: 18px;
+    }
 
-  .nav {
-    margin: 15px 5px;
-  }
+    .logo {
+      height: 40px;
+      width: 60px;
+      margin: 5px 15px;
+    }
 
-  .topnav {
-    font-size: 12px;
-  }
+    .nav {
+      margin: 15px 5px;
+    }
 
-  .headertext {
-    padding-top: 0px;
-    font-size: 1.4rem;
-  }
+    .topnav {
+      font-size: 12px;
+    }
 
-  .btn_container {
-    grid-row: 2/-1;
-  }
 
-  .btn_config,
-  .btn_Buy {
-    padding: 10px 20px;
+
+    .btn_container {
+      grid-row: 2/-1;
+    }
+
+    .btn_config,
+    .btn_Buy {
+      padding: 10px 20px;
+    }
+
   }
 
   //* About */
@@ -687,25 +690,27 @@ canvas {
   .hero {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-  }
 
-  .logo {
-    height: 25px;
-    width: 40px;
-  }
 
-  .headertext {
-    font-size: 1.1rem;
-  }
+    .logo {
+      height: 25px;
+      width: 40px;
+    }
 
-  .btn_container {
-    grid-row: 2/-1;
-  }
+    .headertext {
+      font-size: 1.1rem;
+    }
 
-  .btn_config,
-  .btn_Buy {
-    margin: 30px 5px;
-    padding: 10px 10px;
+    .btn_container {
+      grid-row: 2/-1;
+    }
+
+    .btn_config,
+    .btn_Buy {
+      margin: 10px 5px;
+      padding: 5px 5px;
+    }
+
   }
 
   //* Interior slider */
